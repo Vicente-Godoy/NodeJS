@@ -1,0 +1,70 @@
+:root {
+  --clr-main: #3c4c64;
+  --clr-font: #000000;
+}
+body {
+  background-color: var(--clr-main);
+  background-image: url(https://cgce.b-cdn.net/wp-content/uploads/2023/08/herramientasqwe.jpg);
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  background-attachment: fixed;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 500;
+  color: var(--clr-font);
+  text-shadow:0px 0px 1px rgb(104, 104, 104);
+}
+.container{
+  border-radius: 20px;
+}
+.cont{
+margin: 0 auto;
+overflow:auto;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.26);
+  box-shadow: 0 7px 80px rgba(12, 5, 83, 0.17);
+}
+.card img{
+  box-shadow: 0 7px 80px rgba(12, 5, 83, 0.17);
+  border-radius: 20px;
+  border: none;
+  text-align: justify;
+}
+.card:hover {
+  cursor: pointer;
+  animation-name: hoverTransiton;
+  animation-duration: 0.5s;
+}
+@keyframes hoverTransiton {
+  50% {
+    transform: scale(1.03);
+  }
+}
+.description {
+  text-align: justify;
+}
+li {
+  text-align: center;
+  list-style: none;
+  padding: 0px 0px 5px 0px;
+  border-bottom: 1px solid #f0f4f3;
+}
+li span {
+  color: #777;
+}
+p{
+  margin-left: 8rem; 
+}
+h1{
+  color: rgb(197, 24, 24);
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.17);
+}
+.canje{
+  margin-left: 27%;
+}
+.resul{
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
